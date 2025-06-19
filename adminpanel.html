@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vihara Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .admin-container {
+            display: flex;
+            width: 100%;
+        }
+        .sidebar {
+            width: 250px;
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+        }
+        .sidebar nav ul li {
+    position: relative;
+}
+
+.sidebar nav ul .dropdown {
+    display: none;
+    background: #444;
+    width: 100%;
+    padding-left: 20px; /* Indent for better visibility */
+}
+
+.sidebar nav ul li:hover .dropdown {
+    display: block;
+    position: relative; /* Remove absolute positioning */
+}
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar nav ul {
+            list-style: none;
+        }
+        .sidebar nav ul li {
+            padding: 10px;
+            position: relative;
+        }
+        .sidebar nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidebar nav ul li a:hover {
+            background: #575757;
+            border-radius: 5px;
+        }
+        .dropdown {
+            display: none;
+            background: #444;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 100%;
+        }
+        .dropdown a {
+            padding: 10px;
+            display: block;
+            color: #fff;
+        }
+        .sidebar nav ul li:hover .dropdown {
+            display: block;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            flex: 1;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <h2>Vihara Admin</h2>
+            <nav>
+                <ul>
+                    <li><a href="adminpanel.html">Dashboard</a></li>
+                    <li>
+                        <a href="#">Manage Packages ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="addpackages.php">Add Package</a></li>
+                            <li><a href="updatepackages.php">Update Package</a></li>
+                            <li><a href="deletepackages.php">Delete Package</a></li>
+                        </ul>
+                        <br>
+                        <a href="#">Packagedetails ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="add_package_details.php">Add Package details</a></li>
+                            <li><a href="edit_package_details.php">Update Package details</a></li>
+                            <li><a href="deletepackages.php">Delete Package details</a></li>
+                        </ul>
+                       
+                        <li>
+                            <a href="#">Manage users ▼</a>
+                            <ul class="dropdown">
+                                <li><a href="manageusers.php">manage users</a></li>
+                                <li><a href="managebooking.php">manage bookings</a></li>
+                               
+                            </ul>
+                            <br>
+                            <a href="managereviews.php">Manage Reviews</a></li>
+
+                    <li><a href="logout.php">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <section id="dashboard">
+                <h1>Admin Dashboard</h1>
+                <p>Welcome, Admin! Manage your travel website here.</p>
+            </section>
+            <section id="packages">
+                <h1>Manage Packages</h1>
+                <p>Here you can add, update, or delete travel packages.</p>
+            </section>
+            <section id="reviews">
+                <h1>Manage Reviews</h1>
+                <p>Remove inappropriate user reviews from here.</p>
+            </section>
+            <section id="users">
+                <h1>Manage Users</h1>
+                <p>View newly registered users with timestamps.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

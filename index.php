@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIHARA</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="transition-delay: 2s;">
+          <img src="https://wallpapercave.com/wp/mOWAAlh.jpg" class="d-block w-100"  style="height: 700px; width: 1500px;" alt="...">
+       
+          <div class="carousel-caption d-none d-md-block">
+            <a style="background-color:cadetblue;opacity: 70%;"  href="loginpage.php" class="btn btn-danger">Get Started!</a>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:large;" >Explore the colours of India!</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="transition-delay: 2s;">
+          <img src="https://th.bing.com/th/id/R.953b1762949c082fde6795cc033c6503?rik=vyZjFzDYP6nF%2bQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fe7vo9d8.jpg&ehk=vCphoyjWCDUK%2f%2fZPL0ah3qNZjo4IRbnP13jYLHSt8Ig%3d&risl=&pid=ImgRaw&r=0" class="d-block w-100"  style="height: 700px; width: 1500px;" alt="...">
+       
+          <div class="carousel-caption d-none d-md-block">
+            <a style="background-color:chocolate;opacity: 70%;"  href="loginpage.php" class="btn btn-danger">Get Started!</a>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:large;" >Explore the colours of India!</p>
+          </div>
+       
+        </div>
+        <div class="carousel-item" style="transition-delay: 0.5s;">
+          <img src="https://th.bing.com/th/id/R.e0e47a40e98dfb6d824623af7518416b?rik=qW3nV2fAkBk25A&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fa%2f7%2f874986-cool-india-desktop-wallpaper-1920x1080.jpg&ehk=EysZX%2bizc8Rn5ddpO%2bH6Hqzv%2b4ulrZUooCUYl1fJabU%3d&risl=&pid=ImgRaw&r=0" class="d-block w-100"   style="height: 700px; width: 1500px;" alt="...">
+        
+          <div class="carousel-caption d-none d-md-block">
+            <a style="background-color:burlywood;opacity: 70%;"  href="loginpage.php" class="btn btn-danger">Get Started!</a>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:large;" >Explore the colours of India!</p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Copyright -->
+     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2025 Copyright: Vihara travel agency Pvt Ltd.    |    Legal Disclaimer |    Disclaimer: Fraud Package Offers    |    A Vihara travel agency 
+      
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+</html>
